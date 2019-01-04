@@ -1,0 +1,169 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: Doocrate - Co-Creation events
+theme: hugo-fresh
+
+params:
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Doocrate. Co-Create.
+    # Hero subtitle (optional)
+    subtitle: Co-Create event management platform
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from /images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from /images/logos/clients/___.svg)
+    clientlogos:
+    - systek
+    - tribe
+    - kromo
+    - infinite
+    - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Why
+    url: /
+  - title: What
+    url: /
+  - title: Clients
+    url: /
+  - title: Start project
+    url: https://doocrate.com
+    button: true
+  sidebar:
+    # Logo (from /images/logos/___.svg)
+    logo: fresh-square
+    sections:
+    - title: User
+      icon: user
+      links:
+      - text: Profile
+        url: /
+      - text: Account
+        url: /
+      - text: Settings
+        url: /
+    - title: Messages
+      icon: envelope
+      links:
+      - text: Inbox
+        url: /
+      - text: Compose
+        url: /
+    - title: Images
+      icon: image
+      links:
+      - text: Library
+        url: /
+      - text: Upload
+        url: /
+    - title: Settings
+      icon: cog
+      links:
+      - text: User settings
+        url: /
+      - text: App settings
+        url: /
+  section1:
+    title: What is Doocrate
+    subtitle: 
+    tiles:
+    - title: Event managment
+      icon: mouse-globe
+      text: Track your community tasks in a single place
+      url: https://doocrate.com
+      buttonText: Get started
+    - title: Doocracy
+      icon: laptop-cloud
+      text: Unleash your community creativity by allowing them to choose roles and tasks for themself and execute them.
+      url: https://doocrate.com
+      buttonText: Get started
+    - title: Open source
+      icon: plug-cloud
+      text: Doocrate is open source. We welcome contributions and supported by the community.
+      url: https://doocrate.com
+      buttonText: Get started
+  section2:
+    title: You're here because you want the best
+    subtitle: And we know it
+    features:
+    - title: Feature 1
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Feature 2
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Feature 3
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: Doocrate
+    subtitle: Some catching subtitle
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
+  section4:
+    title: Organizations Using Doocrate!
+    subtitle: Lorem ipsum dolor sit amet, elit deleniti dissentias 
+    clients:
+    - name: Or Granot
+      quote: Doocrate allowed our community to get transperency into the work
+      job: Community Leader
+      img: 1
+    - name: Amir Shalem
+      quote: Doocrate has sparked something in our community
+      job: Community Leader
+      img: 2
+    - name: Gal Bracha
+      quote: Doocrate allowed us to co-create in a flat non-heirecial way
+      job: Open source developer
+      img: 3
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://github.com/metaburn/doocrate
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/
+      icon: twitter
+    bulmalogo: false
+    product:
+    - text: Discover features
+      link: /
+    - text: Why choose our product?
+      link: /
+    - text: Compare features
+      link: /
+    - text: Our roadmap
+      link: /
+    - text: Request features
+      link: /
+    docs:
+    - text: Get started
+      link: /
+    - text: User guides
+      link: /
+    - text: Admin guide
+      link: /
+    - text: Developers
+      link: /
+    blogroll:
+    - text: Latest news
+      link: /
+    - text: Tech articles
+      link: /
+    - text: Video blog
+      link: /
