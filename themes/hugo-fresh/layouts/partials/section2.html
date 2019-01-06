@@ -1,8 +1,9 @@
 {{- $section2 := .Site.Params.section2 }}
 {{- $title    := index $section2 "title" }}
+{{- $name     := index $section2 "name" }}
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
-<section class="section is-medium">
+<section class="section is-medium" id="{{ $name }}">
   <div class="container">
     <div>
       <div class="content-wrapper">

@@ -25,50 +25,17 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Why
-    url: /
-  - title: What
-    url: /
+    url: /#why
+  - title: Features
+    url: /#features
   - title: Clients
-    url: /
+    url: /#clients
   - title: Start project
     url: https://doocrate.com
     button: true
-  sidebar:
-    # Logo (from /images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
   section1:
-    title: What is Doocrate
+    name: why
+    title: Why Doocrate
     subtitle: 
     tiles:
     - title: Event managment
@@ -87,6 +54,7 @@ params:
       url: https://doocrate.com
       buttonText: Get started
   section2:
+    name: features
     title: Doocrate Features
     subtitle: Or how we co-manage our communities
     features:
@@ -110,6 +78,7 @@ params:
     buttonText: Get started
     buttonLink: "#"
   section4:
+    name: clients
     title: Organizations Using Doocrate!
     subtitle: Here are what others have to say about doocrate
     clients:
