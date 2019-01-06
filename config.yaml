@@ -18,13 +18,10 @@ params:
     buttonlink: "#"
     # Hero image (from /images/___)
     image: illustrations/worker.svg
-    # Footer logos (from /images/logos/clients/___.svg)
+    # Footer logos (from /images/logos/clients/___)
     clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    - burnerot.png
+    - leamons.jpg
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Why
@@ -90,22 +87,22 @@ params:
       url: https://doocrate.com
       buttonText: Get started
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: Doocrate Features
+    subtitle: Or how we co-manage our communities
     features:
-    - title: Feature 1
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      image: app-mockup.png
+    - title: Tasks - Flattened
+      text: Categorize your task and then see all of them on a single page
+      image: app-mockup-tasks.png
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Feature 2
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Take responsibility for any task,
+      text: All tasks are open for users to grab. Whenever a hero is taken responsibility the task is all hers.
       icon: doc-sync
-      image: app-mockup.png
-    - title: Feature 3
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      image: app-mockup-take-responsibility.png
+    - title: Search by labels
+      text: Filter tasks by labels
       icon: mobile-feed
-      image: app-mockup.png
+      image: app-mockup-search.png
   section3:
     title: Doocrate
     subtitle: Some catching subtitle
@@ -114,14 +111,14 @@ params:
     buttonLink: "#"
   section4:
     title: Organizations Using Doocrate!
-    subtitle: Lorem ipsum dolor sit amet, elit deleniti dissentias 
+    subtitle: Here are what others have to say about doocrate
     clients:
     - name: Or Granot
       quote: Doocrate allowed our community to get transperency into the work
       job: Community Leader
       img: 1
     - name: Amir Shalem
-      quote: Doocrate has sparked something in our community
+      quote: Doocrate has sparked a new spirit in our community
       job: Community Leader
       img: 2
     - name: Gal Bracha
@@ -130,18 +127,14 @@ params:
       img: 3
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: doocrate-logo.png
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
       # Icons are from Font Awesome
-      icon: github
     - link: https://github.com/metaburn/doocrate
-      icon: dribbble
-    - link: https://facebook.com/#
+      icon: github
+    - link: https://www.facebook.com/metaburnorg/
       icon: facebook
-    - link: https://twitter.com/
-      icon: twitter
     bulmalogo: false
     product:
     - text: Discover features

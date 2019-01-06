@@ -133,6 +133,11 @@ body #backtotop a {
     padding-bottom: 40px !important;
 }
 
+
+.width-up-to-70 {
+    max-width: 70%;
+}
+
 //Input placeholders
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: $placeholder;
