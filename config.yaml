@@ -75,7 +75,7 @@ params:
     subtitle: 
     tiles:
     - title: Event managment
-      icon: mouse-globe
+      icon: calendar-alt
       text: Track your community tasks in a single place
       url: https://doocrate.com
       buttonText: Get started
@@ -95,14 +95,17 @@ params:
     features:
     - title: Feature 1
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      image: app-mockup.png
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Feature 2
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: doc-sync
+      image: app-mockup.png
     - title: Feature 3
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
+      image: app-mockup.png
   section3:
     title: Doocrate
     subtitle: Some catching subtitle

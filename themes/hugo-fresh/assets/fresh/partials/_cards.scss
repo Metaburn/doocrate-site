@@ -6,11 +6,11 @@ Cards and Card content styles
 
 // Feature Card
 .feature-card {
-    width: 300px;
-    height: 320px;
     background-color: #fff;
     border-radius: 3px;
     margin: 0 auto;
+    padding-bottom: 1em;
+
     .card-title h4 {
         font-family: 'Open Sans', sans-serif;
         padding-top: 25px;
