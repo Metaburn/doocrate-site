@@ -51,8 +51,8 @@ params:
     - title: Open source
       icon: plug-cloud
       text: Doocrate is open source. We welcome contributions and supported by the community.
-      url: https://doocrate.com
-      buttonText: Get started
+      url: https://github.com/metaburn/doocrate
+      buttonText: Join
   section2:
     name: features
     title: Doocrate Features
