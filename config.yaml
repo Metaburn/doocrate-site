@@ -40,14 +40,14 @@ params:
     tiles:
     - title: Event managment
       icon: calendar-alt
-      text: Track your community tasks in a single place
+      text: Team of 50? Or 1000? No problem. Manage the community tasks in a single place.
       url: https://doocrate.com
       buttonText: Get started
     - title: Doocracy
       icon: laptop-cloud
       text: Unleash your community creativity by allowing them to choose roles and tasks for themself and execute them.
-      url: https://doocrate.com
-      buttonText: Get started
+      url: https://www.reinventingorganizations.com/
+      buttonText: Read about Reinventing Organizations
     - title: Open source
       icon: plug-cloud
       text: Doocrate is open source. We welcome contributions and supported by the community.
@@ -59,7 +59,7 @@ params:
     subtitle: Or how we co-manage our communities
     features:
     - title: Tasks - Flattened
-      text: Categorize your task and then see all of them on a single page
+      text: It's difficult to manage 50-1000 people that are not technological by nature in a single place. Trello, Asana, Monday are all great for technological teams. But when it come to ease - doocrate allows to people from different worlds come together and co-create. 
       image: app-mockup-tasks.png
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
@@ -67,16 +67,16 @@ params:
       text: All tasks are open for users to grab. Whenever a hero is taken responsibility the task is all hers.
       icon: doc-sync
       image: app-mockup-take-responsibility.png
-    - title: Search by labels
+    - title: Power Search
       text: Filter tasks by labels
       icon: mobile-feed
       image: app-mockup-search.png
   section3:
     title: Doocrate
-    subtitle: Some catching subtitle
+    subtitle: Empower your Co-Creational team
     image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
+    buttonText: Get started - Create your project
+    buttonLink: "doocrate.com"
   section4:
     name: clients
     title: Organizations Using Doocrate!
@@ -104,6 +104,8 @@ params:
       icon: github
     - link: https://www.facebook.com/metaburnorg/
       icon: facebook
+    - link: https://trello.com/b/u5o3nvXA/doocrate-דואוקרט
+      icon: trello
     bulmalogo: false
     product:
     - text: Discover features
